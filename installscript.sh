@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Slackware server URL
-server_url="http://mirrors.slackware.com/slackware/slackware64-current/"
+server_url="http://mirrors.slackware.com/slackware/slackware64-current/slackware64/"
 
 # package names without version number
 packages=(
@@ -62,7 +62,7 @@ packages=(
 )
 
 # download FILELIST.TXT to get list of packages
-wget -O /tmp/FILELIST.TXT "${server_url}/FILELIST.TXT"
+wget -O /tmp/FILELIST.TXT "${server_url}/FILE_LIST"
 
 # create packages directory
 mkdir -p /tmp/packages
