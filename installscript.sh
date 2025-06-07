@@ -87,7 +87,7 @@ installpkg *
 cd /tmp
 
 # install jq
-jq_v=1.6
+jq_v=1.7.1
 wget -O /tmp/jq-${jq_v}-x86_64-1alien.txz https://slackware.uk/people/alien/sbrepos/current/x86_64/jq/jq-${jq_v}-x86_64-1alien.txz
 installpkg /tmp/jq-${jq_v}-x86_64-1alien.txz
 
